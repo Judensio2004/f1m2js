@@ -64,6 +64,7 @@ let lokaties =
     ];
 
 function show(index){
+    console.log(index)
     myTitle.innerHTML = lokaties[index].titel;
     myImage.src = lokaties[index].img;
 }
